@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="estilo.css">
+    <!-- link de los iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- sección menú -->
+    <nav>
+        <ul class="menu">
+            <li><a href="">Inicio</a></li>
+            <li><a href="#info">Información</a></li>
+            <li><a href="#progra">Programación</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <!-- hero -->
+    <header class="hero">
+        <div class="hero-texto">
+            <h1>Programación FrontEnd</h1>
+            <h2>Web dedicada a la programación</h2>
+        </div>
+    </header>
+    <!-- sección info -->
+    <section class="info" id="info">
+        <div class="contenedor">
+            <h2 class="titulo">Información relevante</h2>
+            <p class="parrafo">El desarrollo web front-end se refiere a la práctica de construir y diseñar la interfaz
+                de usuario de un sitio web o aplicación. Esto implica trabajar con tecnologías del lado del cliente,
+                como HTML, CSS y JavaScript, para crear páginas web interactivas y visualmente atractivas.
+
+                La expresión "front-end" tiene su origen en el principio de separación de preocupaciones, el cual aboga
+                por establecer una clara distinción entre la interfaz de usuario (front-end) y la lógica del servidor
+                (back-end) en una aplicación. Esta separación facilita la creación de un código más modular y fácil de
+                mantener. De esta manera, el desarrollo front-end se centra en la parte del software con la que los
+                usuarios interactúan directamente. Los desarrolladores de este ámbito son responsables de crear
+                experiencias de usuario atractivas y funcionales, asegurándose de que los usuarios puedan navegar y
+                utilizar una aplicación de manera efectiva. Esto implica trabajar en el diseño, la presentación y la
+                interactividad de las páginas web y aplicaciones.</p>
+        </div>
+    </section>
+    <!-- sección card -->
+    <section class="contenedor" id="progra">
+        <h2 class="titulo">Programación Web</h2>
+        <div class="contenedor-card">
+            <article class="card">
+                <div class="margen-icono">
+                    <i class="bi bi-hypnotize"></i>
+                </div>
+                <h3>HTML</h3>
+                <p>Aprenda los fundamentos de HTML</p>
+                <a href="" class="boton">Leer más</a>
+            </article>
+            <article class="card">
+                <div class="margen-icono">
+                    <i class="bi bi-gpu-card"></i>
+                </div>
+                <h3>CSS</h3>
+                <p>Aprenda los fundamentos de CSS</p>
+                <a href="" class="boton">Leer más</a>
+            </article>
+            <article class="card">
+                <div class="margen-icono">
+                    <i class="bi bi-joystick"></i>
+                </div>
+                <h3>JavaScript</h3>
+                <p>Aprenda los fundamentos de JavaScript</p>
+                <a href="" class="boton">Leer más</a>
+            </article>
+        </div>
+    </section>
+    <!-- sección galería -->
+    <section class="galeria" id="galeria">
+        <div class="">
+            <h2 class="titulo">Galería de imágenes</h2>
+            <div class="contenedor-galeria">
+                <img src="img/shutterstock_1078387013-scaled.jpg" alt="">
+                <img src="img/Best-Programming-Languages-to-Start-Learning-Today.avif" alt="">
+                <img src="img/clausulas-de-guarda-programacion-e1610923229619.webp" alt="">
+                <img src="img/da404bf7bd4398c9f256c65507d3c860.jpg" alt="">
+                <img src="img/f5786af922a6e314cb51a714f66ca783.jpg" alt="">
+                <img src="img/lenguajes_programacion.jpg" alt="">
+                <img src="img/mejores-lenguajes-de-programacion-2018.jpg" alt="">
+                <img src="img/59b82cf5d47f98d85bf47bbcbdefe906.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="contacto" id="contacto">
+        <div class="contenedor">
+            <h2 class="titulo">Formulario de contacto</h2>
+            <form class="formulario">
+                <input type="text" class="input input-ancho" placeholder="Ingresa Nombre">
+                <input type="email" class="input input-ancho" placeholder="Ingresa email">
+                <textarea class="input ancho" placeholder="Ingresa Mensaje" res cols="30" rows="10"></textarea>
+                <input type="reset" value="Limpiar" class="boton input-ancho">
+                <input type="submit" value="Enviar" class="boton input-ancho">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <!-- generar el pie de página con sus datos personales
+        ciudad, nombre, email, fono y agregar un icono en cada uno de los elementos -->
+        <div>
+            <article class="barra-inferior">
+                <div class="card-inferior">
+                    <p><i class="bi bi-house"></i> Los Ángeles</p>
+                    <p><i class="bi bi-person"></i> Nicolás Bazaes</p>
+                    <p><i class="bi bi-envelope-at"></i> <a
+                            href="mailto:nicolas.bazaes02@inacapmail.cl">nicolas.bazaes02@inacapmail.cl</a></p>
+                    <p><i class="bi bi-phone"></i> +56 9 5960 2232</p>
+                </div>
+            </article>
+        </div>
+    </footer>
+</body>
+
+</html>
